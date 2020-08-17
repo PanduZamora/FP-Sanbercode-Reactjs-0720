@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
+.sidenav {
+    font-family: 'Alata', sans-serif;
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.button {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: -24px;
+    margin-left: -24px;
+    font-family: 'Alata', sans-serif;
+    margin: 20px;
+    background-color: rgb(212, 186, 236);
+    text-decoration: none;
+    border: 0px;
+    font-size: 18px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+button:hover {
+    color: rgb(0, 17, 248);
+}
+
+.navbar-menus {
+    font-family: 'Alata', sans-serif;
+    background: rgb(125, 173, 245);
+    border: 0px;
+    border-radius: 10px 10px 10px 10px;
+    padding: 5px;
+    color: rgb(0, 17, 248);
+}
+
+.navbar-menus:hover {
+    background: white;
+    font-family: 'Alata', sans-serif;
+
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    font-family: 'Alata', sans-serif;
+
+}
+
+th {
+    background-color: white;
+}
+
+td {
+    background-color: white;
+    font-family: 'Alata', sans-serif;
+
+}
+
+table {
+    border-collapse: collapse;
+    font-family: 'Alata', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    background-image: url(./pattern.jpg);
+    font-family: 'Alata', sans-serif;
+    margin: 0px;
+    height: 100%;
+    margin-left: 200px;
+    padding: 0px 10px;
+}
+
+.home {
+    font-family: 'Alata', sans-serif;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: rgb(212, 186, 236);
+    border-radius: 10px 10px 10px 10px;
+}
+
+.home:hover {
+    background: white;
+
+}
+
+a:link {
+    text-decoration: none;
+}
+
+header {
+    background-color: white;
+    height: 60px;
+    display: flex;
+    padding-right: 10px;
+    justify-content: space-between;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    z-index: 1;
+}
+
+nav li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+section {
+    margin-left: 10px;
+    margin-right: 200px;
+    background-color: rgb(17, 192, 245);
+    position: relative;
+    top: 100px;
+    padding: 20px;
+    margin-bottom: 200px;
+    color: white;
+    text-align: center;
+}
+
+img {
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+    height: 150px;
+    float: right;
+}
+
+.logo {
+    padding: 0;
+    width: 200px;
+    height: 60px;
+}
+
+.review {
+    padding-bottom: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h3 {
+    color: rgb(250, 243, 250);
+}
+
+article {
+    border-bottom: 1px solid lightgrey;
+}
+
+h5 {
+    text-align: center;
+    color: white;
+}
+
+footer {
+    font-family: 'Alata', sans-serif;
+    font-weight: bold;
+    display: flex;
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+}
